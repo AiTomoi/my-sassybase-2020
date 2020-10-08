@@ -22,16 +22,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* BASE TEXT FONTS */
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Source Serif Pro", Georgia, "Times New Roman", Times, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, Helvetica, sans-serif;
 }
 
 /* BASE TYPOGRAPHY */
 body {
-  font-siza: 100%;
+  font-size: 100%;
   line-height: 1.4;
 }
 
@@ -72,10 +72,9 @@ hr {
 .headline {
   font-size: 4em;
   font-weight: nomal;
-  font-size: 2.5em;
   line-height: 1;
   margin: 0;
-  color: red;
+  color: pink;
 }
 
 .subheadline {
@@ -90,9 +89,12 @@ hr {
 /* BUTTONS */
 .button {
   display: inline-block;
-  background-color: red;
+  background-color: pink;
   color: #fff;
   text-decoration: none;
   padding: 1em;
   border-radius: 5px;
+}
+.button:hover {
+  background-color: #9e0000;
 }
