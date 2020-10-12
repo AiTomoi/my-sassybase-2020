@@ -10,7 +10,7 @@ Body {
     
     max-width: 1000px;
     margin: 0 auto;
-
+    padding: 0 1em;
 }
 
 /* MEDIA CUERIES */
@@ -20,14 +20,13 @@ Body {
 //SMALL
 
 
-body { font-size: 87.5%; background: red; }
+body { font-size: 87.5%; }
 @media (min-width: $breakpoint-small) {
-    body { font-size: 100%; background: yellow; }
-
+    body { font-size: 100%;}
 }
 
-@media (min-width: $breakpoint-medium) {
-    body { font-size: 112.5%; background: green; }
+@media (min-width: $breakpoint-large) {
+    body { font-size: 110.5%;}
     
 }
 
