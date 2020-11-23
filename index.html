@@ -221,8 +221,15 @@
 
 
 
-<!--SMOOTH SCROLL BY CHRIS FERDINANDI -- https://github.com/cferdinandi/smooth-scroll -->
-
+ <!-- SMOOTH SCROLL BY CHRIS FERDINANDI https://github.com/cferdinandi/smooth-scroll -->
+ <script src="js/smooth-scroll.polyfills.min.js"></script>
+ <script>
+     var scroll = new SmoothScroll('a[href*="#"]', {
+         speed: 800,
+         speedAsDuration: true
+     });
+ </script>
 
 </body>
+
 </html>
